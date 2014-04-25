@@ -1,0 +1,18 @@
+#!/bin/bash
+# VARIABLES
+    X11_KEYMAP="fr bepo"
+
+# COLORS
+    Bold=$(tput bold)
+    Reset=$(tput sgr0)
+
+print_title() {
+    clear
+    print_line
+    echo -e "# ${Bold}$1${Reset}"
+    print_line
+    echo ""
+}
+print_line() {
+    printf "%$(tput cols)s\n"|tr ' ' '-'
+}
