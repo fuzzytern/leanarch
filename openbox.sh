@@ -23,6 +23,9 @@ EOF
   fi
 }
 
+wifi(){
+}
+
 setup_autostart(){
   print_title "Configuring ~/.config/openbox/autostart"
   print "default keyboard layouts + switch command"
