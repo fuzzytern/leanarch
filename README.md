@@ -16,6 +16,7 @@ please take a look at the prerequisites for each scripts in case you're not sure
 [Backlog] Xmonad production environmement (XPE)
 [Backlog] Combine XFCE4 with OPE, APE or XPE
 [Backlog] Vim + Janus
+[Backlog] ssh-agent
 
 
 ## Contributing
